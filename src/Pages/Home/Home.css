@@ -1,0 +1,86 @@
+/*home*/
+.homeRight{
+    background-color: #3296329d;
+    position: fixed;
+    height: 100vh;
+    width: 35%;
+    left: 65%;
+}
+/*navbar*/
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.homeLeft{
+    display: flex;
+    flex-direction: column;
+}
+.homeDetail{
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.homeDetail>img{
+    align-self: center;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    min-height: 50px;
+    max-height: 600px; 
+}
+.brand{
+    max-width: 100%;
+    display: flex;
+    height: 5rem;
+    padding: 1rem;
+    margin-top: 2rem ;
+    margin-right: auto;
+}
+.homeh1{
+    color: #000000;
+}
+.navButtons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+.loginButton{
+    color: #000;
+    background-color: #f1a829;
+
+}
+.signUpButton{
+    color: #ffff;
+    background-color: #000000;
+}
+.loginButton>a{
+    color: #000000;
+    text-decoration: none;
+}
+.signUpButton>a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.signUpButton,.loginButton{
+    padding: 0.8rem 1.6rem;
+    border: none;
+    border-radius: 4em/5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 18px;
+    transition: 0.5s ease-in-out;
+}
+.loginButton:hover,.signUpButton:hover{
+    opacity: .7;
+}
+
